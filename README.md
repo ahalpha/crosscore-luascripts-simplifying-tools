@@ -1,14 +1,13 @@
 # crosscore-luascripts-simplifying-tools
-交错战线 Luascripts 简易数据分析
+交错战线 Luascripts 简易数据收集
 
 # 使用
 
-## 收集数据
-```
-python .\data_characters_tr.py
-```
+## 配置数据
 
-## 生成 Markdown 文档
+进入 `./src/configs/` 中首要配置 `general.py` 中的文档生成目录。
+
+## 运行生成器
 ```
-python .\docs_main.py
+python .\main.py
 ```
